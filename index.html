@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
   <a-scene background="color:#000000">
 
     <a-camera wasd-controls-enabled="false" position="0 1.6 0" camera-zoom-out>
@@ -24,7 +23,6 @@
       </a-box>
 
     </a-entity>
-   
 
     <a-entity id="rocket" position="0 0 0" rotation="0 0 0" move>
 
@@ -33,8 +31,21 @@
       </a-cone>
      
       <!--Part 2-->
-      <a-cylinder  id="part2"  position="0 -1 0" color="orange" radius="0.5" height="4" >       
-      </a-cylinder>    
+      <a-cylinder  id="part2"  position="0 -1 0" color="white" radius="0.5" height="4" >       
+      </a-cylinder>
+
+
+      <a-cone  id="part1"  position="1 1 0" color="white" radius-bottom="0.5" radius-top="0.1" >
+      </a-cone>
+
+      <a-cylinder  id="part4"  position="1 -1 0" color="White" radius="0.5" height="3" >       
+      </a-cylinder> 
+
+      <a-cone  id="part1"  position="-1 1 0" color="white" radius-bottom="0.5" radius-top="0.1" >
+      </a-cone>
+
+      <a-cylinder  id="part5"  position="-1 -1 0" color="White" radius="0.5" height="3" >       
+      </a-cylinder>   
 
       <!--Part 3-->    
 
